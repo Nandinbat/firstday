@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>Amjilltai nevterlee <%= user.email %></h1>
+        <div>
+            <% posts1.forEach(function(post){ %>
+            <p>
+                <%= post.content %>
+                <small><%= post.createdat%></small>
+            </p>
+            <%})%>
+        </div>
+    </body>
+</html>
